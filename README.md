@@ -1,62 +1,68 @@
-# E-Commerce Sales Dashboard
+📌 Overview
 
-# Introduction
-This project analyzes e-commerce sales data using SQL and Power BI to help company leadership make informed decisions about product performance, regional sales trends, and customer activity. The goal is to translate raw sales data into actionable insights that drive business growth and efficiency.
+This project simulates a Product Manager analyzing an e-commerce platform’s performance using SQL and Excel to identify revenue trends, customer retention challenges, and product concentration risks.
 
-# Dataset Information
-- Source: Kaggle e-commerce sales dataset.
-- Contents: Sales records including Invoice No, Stock code, Quantity, Unit Price, Invoice Date, Customer ID, Country, and Description.
+The objective is to derive actionable insights that can inform product decisions and business growth strategies.
 
+🛠 Tools Used
 
-# Business Problem
-- Which products are top performers and which are underperforming?
-- What are the key sales trends across different regions?
-- Who are the most valuable customers?
-- What is the monthly rolling revenue?
+SQL Server (Data querying & metric analysis)
 
-# Data Cleaning
-- Tools Used: Excel for initial cleaning, SQL Server for further processing.
-- Steps:
-  - Removed duplicate records and corrected inconsistent formatting.
-  - Handled missing values by either imputing or removing affected rows.
-  - Created new columns (e.g., TotalPrice = Quantity × Unit Price).
-  - Standardized Invoice date and categorical fields for easier analysis.
-- Challenges: Addressing missing customer IDs and standardizing product names required careful review.
+Excel (Data cleaning, KPI structuring)
 
-# Analysis
-- Techniques Used:
-  - SQL aggregation queries to calculate total sales, identify top products, and segment customers by purchase behavior.
-  - Regional breakdowns to compare sales by country and city.
-- Sample Queries:
-  - Total sales by product and region.
-  - Top 10 customers by total spend.
-  - Monthly sales trends and YoY growth.
+Power BI (Visualization & dashboard reporting)
 
-# Visualizations
-- Power BI Dashboard:  
-  - Sales Overview: Line and bar charts showing Monthly revenue trends, monthly orders and monthly customers.
-  - Product Performance: Stacked bar charts for category-wise sales.
+📊 Key Product Metrics Analyzed
 
+•Monthly Revenue & Growth Rate
 
-# Key Findings
+•Active Customers Trend
 
-- The UK is the biggest market and the Regency Cake Stand is the best-selling product.
-- Total sales and number of customers are going down month by month.
-- Most sales come from just a few products and countries.
-- Overall revenue is slowly declining over time.
-  
-# Business Recommendations
-- Keep your current customers happy and encourage them to buy again with special offers or loyalty programs.
-- Promote your best-selling products more to increase sales.
-- Try to grow sales in other countries besides the UK.
-- Find out why sales and customers are dropping and fix those issues.
-- Add new products to attract more buyers and reduce dependence on a few items.
-- Spend marketing money wisely by focusing on products and places that bring the most sale
+•Top Product Contribution %
 
+•Customer Concentration Risk
 
-# Credits
-- Dataset: Kaggle E-Commerce Data = [(https://www.kaggle.com/datasets/carrie1/ecommerce-data)]
-- Tools: SQL Server, Power BI, Excel
+•Regional Sales Distribution
+
+•Repeat Purchase Indicators
+
+🔍 Business Problem
+
+Revenue shows a gradual month-over-month decline.
+
+Sales are highly dependent on a few products and one primary region.
+
+Customer base is shrinking over time.
+
+📈 Key Insights
+
+A small segment of customers contributes the majority of revenue.
+
+Product portfolio concentration increases business risk.
+
+Geographic diversification opportunities exist.
+
+Retention-focused strategies are required to stabilize growth.
+
+🚀 Product Recommendations
+
+Introduce loyalty programs to improve repeat purchases.
+
+Launch cross-sell and bundle recommendations.
+
+Expand marketing beyond the dominant region.
+
+Conduct A/B testing on promotional strategies.
+
+🎯 Product Thinking Demonstrated
+
+Structured problem breakdown
+
+KPI identification
+
+Data-driven decision making
+
+Business-focused recommendations
 
 
 
